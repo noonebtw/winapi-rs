@@ -252,6 +252,7 @@ pub mod gl;
 #[cfg(feature = "vsbackup")] pub mod vsbackup;
 #[cfg(feature = "vss")] pub mod vss;
 #[cfg(feature = "vsserror")] pub mod vsserror;
+#[cfg(feature = "virtdisk")] pub mod virtdisk;
 #[cfg(feature = "vswriter")] pub mod vswriter;
 #[cfg(feature = "wbemads")] pub mod wbemads;
 #[cfg(feature = "wbemcli")] pub mod wbemcli;

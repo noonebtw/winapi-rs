@@ -349,6 +349,7 @@ const DATA: &'static [(&'static str, &'static [&'static str], &'static [&'static
     ("vss", &["guiddef", "minwindef", "unknwnbase", "winnt"], &[]),
     ("vsserror", &["winnt"], &[]),
     ("vswriter", &["minwindef", "unknwnbase", "vss", "winnt", "wtypes"], &[]),
+	("virtdisk", &["minwindef", "minwinbase", "guiddef", "winnt"], &["virtdisk"]),
     ("wbemads", &["oaidl", "wbemdisp", "winerror", "wtypes"], &[]),
     ("wbemcli", &["minwindef", "oaidl", "rpcndr", "unknwnbase", "winerror", "winnt", "wtypes"], &[]),
     ("wbemdisp", &["oaidl", "unknwnbase", "winerror", "wtypes"], &[]),
